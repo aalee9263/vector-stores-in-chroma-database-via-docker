@@ -1,0 +1,4 @@
+1. .. first start docker desktop
+2. in terminal type.... docker pull chromadb/chromadb
+3. docker run -p 8000:8000 chromadb/chroma
+4. the working and final file is app.mjs
