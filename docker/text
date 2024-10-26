@@ -1,3 +1,0 @@
-.. first start docker desktop
-in terminal type.... docker pull chromadb/chromadb
-docker run -p 8000:8000 chromadb/chroma
