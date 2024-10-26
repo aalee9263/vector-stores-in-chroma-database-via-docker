@@ -1,5 +1,6 @@
 import { ChromaClient, OpenAIEmbeddingFunction } from "chromadb";
 import OpenAI from "openai";
+const my_api_key = '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'
 
 const chroma = new ChromaClient({ path: "http://localhost:8000" });
 
@@ -17,7 +18,7 @@ with over 45,000 students across three campuses in Seattle, Tacoma, and Bothell.
 As the flagship institution of the six public universities in Washington state,
 UW encompasses over 500 buildings and 20 million square feet of space,
 including one of the largest library systems in the world.`;
-const my_api_key = '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'
+
 
 
 const embeddingFunction = new OpenAIEmbeddingFunction({
